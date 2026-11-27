@@ -1,2 +1,5 @@
+from datetime import date
+
+
 def main() -> None:
-    print("Hello from siq025-proyecto!")
+    print(f"Hola, Natàlia Bellver! Hui és {date.today():%d/%m/%Y}.")
